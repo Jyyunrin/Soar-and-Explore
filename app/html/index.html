@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Soar and Explore</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/stylesheet.css" />
+    <link href="./img/myicon.ico?v=1" rel="icon" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="grid">
+
+      <div id="navbar">
+
+        <div id="logoContainer">
+          <img id="logo" alt="Logo" src="./img/logowhite.svg" height="100" />
+        </div>
+        
+        <nav id="nav1">
+          <ul>
+            <li>
+              <img class="icons" alt="home icon" src="./img/Home.png" />
+            </li>
+            <li>
+              <a href="#" class="hover1">Home</a>
+            </li>
+            <li>
+              <img class="icons" alt="trending flight icon" src="./img/FeaturedFlights.png" />
+            </li>
+            <li>
+              <a href="#" class="hover1">Trending Flights</a>
+            </li>
+            <li>
+              <img class="icons" alt="find flights icon" src="./img/FindFlights.png" />
+            </li>
+            <li>
+              <a href="#" class="hover1">Browse Flights</a>
+            </li>
+            <li>
+              <img class="icons" alt="Explore icon" src="./img/explore.png" />
+            </li>
+            <li>
+              <a href="#" class="hover1">Explore</a>
+            </li>
+            <li>
+              <img class="icons" alt="Contact Us icon" src="./img/contact.png" />
+            </li>
+            <li>
+              <a href="#" class="hover1">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <label class="hamburger-menu">
+          <input type="checkbox">
+        </label>
+
+        <aside class="sidebar">
+          <nav>
+            <div>
+              <a href="#" class="hover2">Home</a>
+            </div>
+            <div>
+              <a href="#" class="hover2">Trending Flights</a>
+            </div>
+            <div>
+              <a href="#" class="hover2">Browse Flights</a>
+            </div>
+            <div>
+              <a href="#" class="hover2">Explore</a>
+            </div>
+            <div>
+              <a href="#" class="hover2">Contact Us</a>
+            </div>
+            <div>
+              <a href="#" class="hover2">Create an Account</a>
+            </div>
+          </nav>
+        </aside>
+
+        <nav id="nav2">
+          <ul>
+            <li>
+              <a href="#" class="hover1">Create an Account</a>
+            </li>
+            <li id="signin">
+              <a href="#" class="hover1">Sign In</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div id="header">
+        <header>
+          <h1>Soar and Explore</h1>
+        </header>
+      </div>
+
+      <div id="content">
+        <div class="card" id="card1">
+          <img class="hover1" id="pic1" alt="pic1" src="./img/Dubai.jpg" />
+          <div class="captions" id="caption1">Dubai</div>
+        </div>
+        <div class="card" id="card2">
+          <img id="pic2" alt="pic2" src="./img/Hawaii.jpg" />
+          <div class="captions" id="caption2">Hawaii</div>
+        </div>
+        <div class="card" id="card3">
+          <img id="pic3" alt="pic3" src="./img/China.jpg" />
+          <div class="captions" id="caption3">Beijing</div>
+        </div>
+        <div class="card" id="card4">
+          <img id="pic4" alt="pic4" src="./img/Switzerland.jpg" />
+          <div class="captions" id="caption4">Munich</div>
+        </div>
+        <div class="card" id="card5">
+          <img id="pic5" alt="pic5" src="./img/USA.png" />
+          <div class="captions" id="caption5">San Francisco</div>
+        </div>
+      </div>
+
+      <div id="searchbarHeader">
+        <h1>Find your Dream Destination Flight Today </h1>
+      </div>
+
+      <div id="searchbarArea">
+        <input type="text" id="searchbar" name="searchbar" placeholder="Search for a Destination" pattern="[A-Za-z]{2,20}" />
+        <button id="submit" type="submit">Search</button>
+      </div>
+
+      <div id="grid2">
+        <div class="box">
+          <div class="box2">
+            <h2>Review</h2>
+            <p class="reviewer">Joe Lin</p>
+            <p>I've never been seen a website so badly designed. 0/10 would fly again.</p>
+          </div>
+        </div>
+        <img alt="review pic 1" id="reviewimg1" src="./img/travel2.jpg" />
+      </div>
+
+      <div id="grid3">
+        <img alt="review pic 2" id="reviewimg2" src="./img/travel1.jpg" />
+        <div class="box3">
+          <div class="box2">
+            <h2>Review</h2>
+            <p class="reviewer">Patricia Zhu</p>
+            <p>They accidently sold me a $10 flight to Beijing, will be checking out more flights.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="grid4"></div>
+      <div id="buttonContainer">
+        <input id="trendingCities1" type="button" value="1">
+        <input id="trendingCities2" type="button" value="2">
+      </div>
+      <div id="line">
+        <hr>
+      </div>
+
+      <div id="grid5">
+        <footer id="footer1">
+          <ul>
+            <li>
+              <a href="#" class="hover1">Privacy</a>
+            </li>
+            <li>
+              <a href="#" class="hover1">Terms of Service</a>
+            </li>
+            <li>
+              <a href="#" class="hover1">&copy;JoeLin2023</a>
+            </li>
+          </ul>
+        </footer>
+        <footer id="footer2">
+          <img alt="Facebook Icon" src=./img/facebook.png width="50" height="50">
+          <img alt="Twitter Icon" src=./img/twitter.png width="50" height="50">
+          <img alt="Youtube Icon" src=./img/youtube.png width="50" height="50">
+        </footer>
+      </div>
+    </div>
+
+    <script src="/js/client.js"></script>
+
+  </body>
+</html>

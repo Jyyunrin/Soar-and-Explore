@@ -1,0 +1,73 @@
+[
+    {
+        "image": "img/Miami.jpg",
+        "city": "Miami, USA",
+        "price": "From $145+",
+        "flightType": "Round-trip",
+        "stops": "Direct"
+    },
+    {
+        "image": "img/Rome.jpg",
+        "city": "Rome, ITL",
+        "price": "From $532+",
+        "flightType": "Round-trip",
+        "stops": "One-Stop"
+    },
+    {
+        "image": "img/Mumbai.jpg",
+        "city": "Mumbai, IND",
+        "price": "From $987+",
+        "flightType": "Round-trip",
+        "stops": "One-Stop"
+    },
+    {
+        "image": "img/Bangkok.jpg",
+        "city": "Bangkok, TH",
+        "price": "From $839+",
+        "flightType": "Round-trip",
+        "stops": "One-Stop"
+    },
+    {
+        "image": "img/TaipeiCity.jpg",
+        "city": "Taipei City, TP",
+        "price": "From $862+",
+        "flightType": "Round-trip",
+        "stops": "Direct"
+    },
+    {
+        "image": "img/Madrid.jpg",
+        "city": "Madrid, SPN",
+        "price": "From $799+",
+        "flightType": "Round-trip",
+        "stops": "One-Stop"
+    },
+    {
+        "image": "img/LasVegas.jpg",
+        "city": "Las Vegas, USA",
+        "price": "From $123+",
+        "flightType": "Round-trip",
+        "stops": "Direct"
+    },
+    {
+        "image": "img/Seoul.jpg",
+        "city": "Seoul, KR",
+        "price": "From $877+",
+        "flightType": "Round-trip",
+        "stops": "One-Stop"
+    },
+    {
+        "image": "img/Moscow.jpg",
+        "city": "Moscow, RU",
+        "price": "From $653+",
+        "flightType": "Round-trip",
+        "stops": "Direct"
+    },
+    {
+        "image": "img/HongKong.jpg",
+        "city": "Hong Kong, CN",
+        "price": "From $766+",
+        "flightType": "Round-trip",
+        "stops": "Direct"
+    }
+    
+]
